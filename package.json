@@ -1,0 +1,24 @@
+{
+  "name": "mmttechtestapi",
+  "version": "0.0.1",
+  "description": "serves products for the mmt tech test",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roger-Heathcote/mmttechtestapi.git"
+  },
+  "author": "Roger Heathcote",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Roger-Heathcote/mmttechtestapi/issues"
+  },
+  "homepage": "https://github.com/Roger-Heathcote/mmttechtestapi#readme"
+}
