@@ -20,6 +20,11 @@ async function getListOfProducts(req, res, next) {
 			name: "Jack Daniels",
 			image: `${here}/images/jack-daniels.jpg`,
 			price: 335,
+			},
+			"kracken": {
+			name: "Kracken",
+			image: `${here}/images/kracken.jpg`,
+			price: 2650,
 			}
 		},
 	})	
