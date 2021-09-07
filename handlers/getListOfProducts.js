@@ -25,8 +25,18 @@ async function getListOfProducts(req, res, next) {
 			name: "Kracken",
 			image: `${here}/images/kracken.jpg`,
 			price: 2650,
+			},
+			"courvoisier": {
+			name: "Courvoisier",
+			image: `${here}/images/courvoisier.jpg`,
+			price: 2250,
+			},
+			"silver-patron": {
+			name: "Patron (silver)",
+			image: `${here}/images/silver-patron.jpg`,
+			price: 3430,
 			}
 		},
-	})	
+	})
 }
 module.exports = getListOfProducts
